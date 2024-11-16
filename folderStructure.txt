@@ -1,0 +1,27 @@
+src/
+    controllers/
+        CabsController.h
+        RidersController.h
+    database/
+        CabsManager.h
+        RidersManager.h
+        TripsManager.h
+    exceptions/
+        CabAlreadyExistsException.h
+        CabNotFoundException.h
+        NoCabsAvailableException.h
+        RiderAlreadyExistsException.h
+        RiderNotFoundException.h
+        TripNotFoundException.h
+    model/
+        Cab.h
+        Location.h
+        Rider.h
+        Trip.h
+    strategies/
+        CabMatchingStrategy.h
+        DefaultCabMatchingStrategy.h
+        PricingStrategy.h
+        DefaultPricingStrategy.h
+    main.cpp
+CMakeLists.txt
